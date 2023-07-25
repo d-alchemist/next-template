@@ -13,7 +13,7 @@ const Home: NextPageWithLayout = () => {
 };
 
 Home.getLayout = function getLayout(page: ReactElement) {
-  return <DashboardLayout title="Dashboard">{page}</DashboardLayout>;
+  return <DashboardLayout title="CRM Tools">{page}</DashboardLayout>;
 };
 
 export default Home;
